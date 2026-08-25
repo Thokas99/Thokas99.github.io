@@ -1,0 +1,27 @@
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+
+minimal_mistakes_skin: "air"
+
+title: "Thomas Sirchi"
+name: "Thomas Sirchi"
+
+description: >-
+  Computational biologist working in cancer genomics,
+  transcriptomics, single-cell and multi-omics.
+
+url: "https://thokas99.github.io"
+repository: "Thokas99/Thokas99.github.io"
+
+author:
+  name: "Thomas Sirchi"
+  bio: "Computational Biologist | Cancer genomics · Single-cell · Multi-omics"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Thokas99"
+
+plugins:
+  - jekyll-include-cache
+
+include:
+  - _pages
