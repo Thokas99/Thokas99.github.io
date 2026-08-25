@@ -1,0 +1,12 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Software"
+    url: /software/
+
+  - title: "Publications"
+    url: /publications/
