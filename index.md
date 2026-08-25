@@ -8,7 +8,6 @@ excerpt: "Cancer genomics, transcriptomics, single-cell analysis, and multi-omic
 
 <div class="home-hero">
   <p class="home-hero__subtitle">Computational Biologist · Cancer Genomics · Single-Cell &amp; Multi-Omics</p>
-  <p class="home-hero__tagline">Decoding tumour heterogeneity, cellular plasticity, and treatment response through computational biology.</p>
 </div>
 
 ## About me
