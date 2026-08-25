@@ -1,21 +1,30 @@
 ---
 layout: single
 author_profile: true
-classes: wide
+classes: wide home-page
 title: "Thomas Sirchi"
 excerpt: "Cancer genomics, transcriptomics, single-cell analysis, and multi-omics."
 ---
 
-<p class="page__lead"><strong>Computational Biologist</strong></p>
-## Hi, I'm Thomas
+<div class="home-hero">
+  <p class="home-hero__subtitle">Computational Biologist · Cancer Genomics · Single-Cell &amp; Multi-Omics</p>
+  <p class="home-hero__tagline">Decoding tumour heterogeneity, cellular plasticity, and treatment response through computational biology.</p>
+  <nav class="hero-actions" aria-label="Contact links">
+    <a class="btn btn--primary" href="https://github.com/Thokas99" rel="noopener">GitHub</a>
+    <a class="btn" href="mailto:thomasirchi@gmail.com">Email</a>
+  </nav>
+</div>
 
-I use **computational biology, statistics, and machine learning** to study tumour
-heterogeneity, cell-state plasticity, microenvironmental interactions, and
-treatment response.
+## About me
 
-My work focuses on extracting **biologically interpretable insights from
-high-dimensional molecular data**, with experience across **lung cancer and
-haematological malignancies**.
+I am a **computational biologist working in cancer genomics**, using
+high-dimensional molecular data to investigate how tumour cells change state,
+interact with their microenvironment, and respond to treatment.
+
+My work combines **transcriptomics, single-cell biology, multi-omics
+integration, statistics, and machine learning**, with experience across
+**lung cancer and haematological malignancies** and an emphasis on
+**reproducible analysis and biologically interpretable results**.
 
 ### Research focus
 
@@ -36,9 +45,42 @@ haematological malignancies**.
 
 ### Computational toolkit
 
-`R` · `Python` · `Nextflow`
+<div class="toolkit-grid">
+  <section class="toolkit-group">
+    <h4>Languages &amp; workflows</h4>
+    <div class="toolkit__tags" aria-label="Languages and workflow tools">
+      <span class="tech-tag">R</span>
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Bash</span>
+      <span class="tech-tag">Nextflow</span>
+    </div>
+  </section>
+  <section class="toolkit-group">
+    <h4>Data analysis</h4>
+    <div class="toolkit__tags" aria-label="Data analysis approaches">
+      <span class="tech-tag">scRNA-seq</span>
+      <span class="tech-tag">Spatial transcriptomics</span>
+      <span class="tech-tag">Bulk RNA-seq</span>
+      <span class="tech-tag">miRNA-seq</span>
+      <span class="tech-tag">Multi-omics</span>
+      <span class="tech-tag">Differential expression</span>
+      <span class="tech-tag">Pathway analysis</span>
+      <span class="tech-tag">Immune deconvolution</span>
+    </div>
+  </section>
+  <section class="toolkit-group">
+    <h4>Approach</h4>
+    <div class="toolkit__tags" aria-label="Computational approaches">
+      <span class="tech-tag">Reproducible workflows</span>
+      <span class="tech-tag">Statistical modelling</span>
+      <span class="tech-tag">Machine learning</span>
+      <span class="tech-tag">Data visualisation</span>
+      <span class="tech-tag">Biological interpretation</span>
+    </div>
+  </section>
+</div>
 
-I build **reproducible computational workflows** for sequencing QC, statistical
+I build reproducible computational workflows for sequencing QC, statistical
 analysis, integrative modelling, and biological interpretation.
 
 > **Current focus:** tumour heterogeneity, cell-state plasticity, and metastatic progression through single-cell and multi-omic approaches.
@@ -54,7 +96,7 @@ analysis, integrative modelling, and biological interpretation.
 <div class="project-grid project-grid--home">
   <article class="project-card">
     <h3>veryMAD</h3>
-    <p>Explicit MAD-based quality control for biological data.</p>
+    <p>Explicit MAD-based quality control and diagnostic visualisation for high-dimensional biological data.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">R</span>
       <span class="tech-tag">QC</span>
@@ -64,7 +106,7 @@ analysis, integrative modelling, and biological interpretation.
   </article>
   <article class="project-card">
     <h3>veryMADpy</h3>
-    <p>Python and AnnData implementation of explicit MAD-based quality control.</p>
+    <p>Python/AnnData implementation of explicit MAD-based quality control for modern single-cell workflows.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">Python</span>
       <span class="tech-tag">AnnData</span>
@@ -74,7 +116,7 @@ analysis, integrative modelling, and biological interpretation.
   </article>
   <article class="project-card">
     <h3>ComBat-refQL</h3>
-    <p>Reference-batch adjustment for bulk RNA-seq count data using quasi-likelihood modelling.</p>
+    <p>Reference-batch adjustment for bulk RNA-seq count data using quasi-likelihood modelling and explicit diagnostics.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">R</span>
       <span class="tech-tag">edgeR</span>
@@ -84,7 +126,7 @@ analysis, integrative modelling, and biological interpretation.
   </article>
   <article class="project-card">
     <h3>simple-nextflow-salmon</h3>
-    <p>A small reproducible bulk RNA-seq workflow built with Nextflow and Salmon.</p>
+    <p>Lightweight reproducible Nextflow workflow for RNA-seq quantification with Salmon and integrated QC.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">Nextflow</span>
       <span class="tech-tag">Salmon</span>
@@ -95,3 +137,18 @@ analysis, integrative modelling, and biological interpretation.
 </div>
 
 [See all software projects]({{ '/software/' | relative_url }}){: .btn .btn--inverse}
+
+## What I care about
+
+<div class="research-principle" role="group" aria-label="Research workflow">
+  <div class="research-principle__steps">
+    <span class="research-principle__step">Biological question</span>
+    <span class="research-principle__arrow" aria-hidden="true">→</span>
+    <span class="research-principle__step">Reproducible computation</span>
+    <span class="research-principle__arrow" aria-hidden="true">→</span>
+    <span class="research-principle__step">Statistical evidence</span>
+    <span class="research-principle__arrow" aria-hidden="true">→</span>
+    <span class="research-principle__step">Interpretable biology</span>
+  </div>
+  <p>I am particularly interested in computational approaches that connect <strong>molecular measurements with tumour cell state, evolutionary dynamics and phenotype</strong>, rather than treating high-dimensional data as an endpoint by itself.</p>
+</div>

@@ -13,7 +13,7 @@ biological data analysis.
 <div class="project-grid">
   <article class="project-card">
     <h2>veryMAD</h2>
-    <p>Explicit MAD-based quality control for biological data.</p>
+    <p>Explicit MAD-based quality control and diagnostic visualisation for high-dimensional biological data.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">R</span>
       <span class="tech-tag">QC</span>
@@ -23,7 +23,7 @@ biological data analysis.
   </article>
   <article class="project-card">
     <h2>veryMADpy</h2>
-    <p>Python and AnnData implementation of explicit MAD-based quality control.</p>
+    <p>Python/AnnData implementation of explicit MAD-based quality control for modern single-cell workflows.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">Python</span>
       <span class="tech-tag">AnnData</span>
@@ -33,7 +33,7 @@ biological data analysis.
   </article>
   <article class="project-card">
     <h2>ComBat-refQL</h2>
-    <p>Reference-batch adjustment for bulk RNA-seq count data using quasi-likelihood modelling.</p>
+    <p>Reference-batch adjustment for bulk RNA-seq count data using quasi-likelihood modelling and explicit diagnostics.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">R</span>
       <span class="tech-tag">edgeR</span>
@@ -43,7 +43,7 @@ biological data analysis.
   </article>
   <article class="project-card">
     <h2>simple-nextflow-salmon</h2>
-    <p>A small reproducible bulk RNA-seq workflow built with Nextflow and Salmon.</p>
+    <p>Lightweight reproducible Nextflow workflow for RNA-seq quantification with Salmon and integrated QC.</p>
     <div class="project-card__tags" aria-label="Technologies and domains">
       <span class="tech-tag">Nextflow</span>
       <span class="tech-tag">Salmon</span>

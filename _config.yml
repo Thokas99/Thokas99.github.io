@@ -12,6 +12,9 @@ description: >-
 url: "https://thokas99.github.io"
 repository: "Thokas99/Thokas99.github.io"
 
+atom_feed:
+  hide: true
+
 author:
   name: "Thomas Sirchi"
   avatar: "/assets/images/profile.jpg"
@@ -20,6 +23,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Thokas99"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:thomasirchi@gmail.com"
 
 plugins:
   - jekyll-include-cache
