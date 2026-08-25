@@ -101,6 +101,14 @@
   object-fit: cover;
 }
 
+.author__avatar img {
+  box-sizing: border-box;
+  height: 175px;
+  max-width: 175px;
+  object-fit: cover;
+  width: 175px;
+}
+
 .home-actions {
   display: flex;
   flex-wrap: wrap;
@@ -330,5 +338,13 @@
   .research-principle__arrow::after {
     content: "↓";
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 63.999em) {
+  .author__avatar img {
+    height: 135px;
+    max-width: 135px;
+    width: 135px;
   }
 }

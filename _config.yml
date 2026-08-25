@@ -18,7 +18,7 @@ atom_feed:
 author:
   name: "Thomas Sirchi"
   avatar: "/assets/images/profile.jpg"
-  bio: "Computational Biologist | Cancer genomics · Single-cell · Multi-omics"
+  bio: "Computational Biologist"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
