@@ -1,2 +1,9 @@
-### About Me
-Computational biologist with experience in single-cell and multi-omics analysis of cancer biology. Skilled in scRNA-seq, bulk RNA-seq, miRNA-seq, DNA methylation, immune deconvolution, machine learning, and statistical modelling. Experienced in investigating tumour cell plasticity, malignant state transitions, immune phenotypes, genomic instability, and treatment response across lung cancer and haematological malignancies. Strong background in building reproducible R and Python workflows and translating high-dimensional molecular data into biologically and interpretable findings.
+# thokas99.github.io
+
+Source for my personal website:
+
+**https://thokas99.github.io**
+
+Built with Jekyll and the Minimal Mistakes theme and deployed with GitHub Pages.
+
+This repository contains only the source, content, and configuration files for the website.

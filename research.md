@@ -7,33 +7,36 @@ permalink: /research/
 excerpt: "Computational approaches to cancer biology and high-dimensional molecular data."
 ---
 
-My research interests are centered on the biological processes that shape cancer
-progression, and on computational approaches that make those processes easier to
-study.
+My research centers on how cancer cells change state, interact with their
+microenvironment, and acquire aggressive or metastatic phenotypes, together
+with the computational methods needed to resolve these processes from
+high-dimensional molecular data.
 
 ## Cancer ecosystems and metastasis
 
-I am interested in tumour progression, metastatic dissemination, organ-specific
-metastatic biology, and the interactions between tumour cells and their
-microenvironment.
+I am particularly interested in metastatic progression, organ-specific tumour
+biology, and the interactions between malignant cells and the tissues they
+colonize.
 
 From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet
 focused on cancer ecosystems and metastatic progression.
 
 ## Tumour heterogeneity and cell-state plasticity
 
-I am interested in malignant state transitions, cellular heterogeneity,
-transcriptional plasticity, and treatment-response phenotypes.
+My work explores malignant state transitions, transcriptional plasticity,
+cellular heterogeneity, and molecular phenotypes associated with treatment
+response.
 
 ## Single-cell and spatial multi-omics
 
-My approaches include scRNA-seq, integration of high-dimensional molecular
-measurements, spatial molecular data, and multi-modal analyses.
+I use single-cell transcriptomics and integrative multi-omics to resolve
+heterogeneous cellular states and molecular programs, with spatial molecular
+data becoming an increasing focus.
 
 ## Computational methodology
 
-Relevant methods include statistical genomics, explicit quality control,
-batch-effect modelling, and reproducible workflows built with R, Python, and
-Nextflow.
+I develop transparent and reproducible approaches for statistical genomics,
+quality control, batch-effect modelling, and high-dimensional data analysis
+using R, Python, and Nextflow.
 
 [Explore the software projects]({{ '/software/' | relative_url }}){: .btn .btn--primary}

@@ -7,48 +7,45 @@ excerpt: "Cancer genomics, transcriptomics, single-cell analysis, and multi-omic
 ---
 
 <p class="page__lead"><strong>Computational Biologist</strong></p>
-
 ## Hi, I'm Thomas
 
-**Computational Biologist · Cancer Genomics · Single-Cell & Multi-Omics**
+I use **computational biology, statistics, and machine learning** to study tumour
+heterogeneity, cell-state plasticity, microenvironmental interactions, and
+treatment response.
 
-I use **computational biology, statistics, and machine learning** to study how cancer cells evolve, change state, interact with their microenvironment, and respond to treatment.
-
-My work focuses on extracting **biologically interpretable insights from high-dimensional molecular data**, with experience across **lung cancer and haematological malignancies**.
+My work focuses on extracting **biologically interpretable insights from
+high-dimensional molecular data**, with experience across **lung cancer and
+haematological malignancies**.
 
 ### Research interests
 
-* **Single-cell & spatial biology** — scRNA-seq, cell-state identification, tumour heterogeneity and plasticity
-* **Transcriptomics** — bulk RNA-seq, miRNA-seq, differential expression and pathway-level analysis
-* **Multi-omics** — integration of transcriptomic, genomic and epigenomic data
-* **Tumour biology** — malignant state transitions, genomic instability and treatment response
+* **Single-cell & spatial omics** — scRNA-seq, cell-state analysis, tumour heterogeneity, plasticity, and spatially resolved molecular data
+* **Transcriptomics** — bulk RNA-seq, miRNA-seq, differential expression, and pathway-level analysis
+* **Multi-omics** — integration of transcriptomic, genomic, and epigenomic data
+* **Cancer biology** — malignant state transitions, genomic instability, metastatic progression, and treatment response
 * **Tumour microenvironment** — immune phenotyping and computational deconvolution
-* **Computational modelling** — machine learning, statistical modelling and biomarker discovery
+* **Computational modelling** — statistical modelling, machine learning, and biomarker discovery
 
 ### Computational toolkit
 
 `R` · `Python` · `Nextflow`
 
-I build **reproducible and scalable analysis workflows**, from sequencing QC and preprocessing to integrative modelling and publication-ready biological interpretation.
+I build **reproducible computational workflows** spanning sequencing QC,
+statistical analysis, integrative modelling, and biological interpretation.
 
-> **Current focus:** single-cell and multi-omics approaches to understand tumour heterogeneity, cellular plasticity and cancer progression.
-
+> **Current focus:** tumour heterogeneity, cell-state plasticity, and metastatic progression through single-cell and multi-omic approaches.
 
 <nav class="home-actions" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore research</a>
   <a class="btn" href="{{ '/software/' | relative_url }}">View software</a>
 </nav>
 
-## Research
-
-My work focuses on computational cancer biology, transcriptomics, single-cell
-analysis, multi-omics integration, and statistical genomics.
-
 [Read about my research]({{ '/research/' | relative_url }}){: .btn .btn--inverse}
 
 ## Software
 
-I build reproducible R, Python, and Nextflow workflows for biological data analysis.
+I build **reproducible computational workflows** spanning sequencing QC,
+statistical analysis, integrative modelling, and biological interpretation.
 
 <div class="project-grid project-grid--home">
   <article class="project-card">
