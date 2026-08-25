@@ -14,57 +14,88 @@ computational workflows.
 
 > **Incoming doctoral researcher at ULB / Institut Jules Bordet, beginning October 2026.**
 
+[Download CV (PDF)]({{ '/assets/files/Thomas_Sirchi_CV.pdf' | relative_url }}){: .btn .btn--primary}
+
 ## Professional Experience
 
-### Bioinformatician — Functional Oncology
+<div class="vita-timeline">
+  <section class="vita-entry">
+    <div class="vita-entry__date">November 2025 – August 2026</div>
+    <div class="vita-entry__content">
+      <h3>Bioinformatician — Functional Oncology</h3>
+      <p class="vita-entry__meta">Casa Sollievo della Sofferenza IRCCS</p>
+      <ul>
+        <li>Analysed scRNA-seq data to study tumour plasticity and state transitions in lung adenocarcinoma, including trajectory inference and RNA velocity.</li>
+        <li>Integrated miRNA-seq, bulk RNA-seq, DNA methylation, immune deconvolution, and genomic alterations through multi-omics analysis with MOFA.</li>
+        <li>Applied statistical and machine-learning models to immune activation, PD-L1/IFNG phenotypes, clinical variables, and biomarker questions.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="vita-entry">
+    <div class="vita-entry__date">June – September 2022</div>
+    <div class="vita-entry__content">
+      <h3>Biotechnologist — Genotyping</h3>
+      <p class="vita-entry__meta">MRC Harwell, Mary Lyon Centre</p>
+      <p>High-throughput TaqMan RT-PCR genotyping for engineered mouse-model workflows.</p>
+    </div>
+  </section>
+</div>
 
-**Casa Sollievo della Sofferenza IRCCS**<br>
-November 2025 – August 2026
+## Research &amp; Thesis
 
-- Analysed scRNA-seq data to study tumour plasticity and state transitions in lung adenocarcinoma, including trajectory inference and RNA velocity.
-- Integrated miRNA-seq, bulk RNA-seq, DNA methylation, immune deconvolution, and genomic alterations through multi-omics analysis with MOFA.
-- Applied statistical and machine-learning models to immune activation, PD-L1/IFNG phenotypes, clinical variables, and biomarker questions.
+<div class="vita-timeline">
+  <section class="vita-entry">
+    <div class="vita-entry__date">September 2024 – February 2025</div>
+    <div class="vita-entry__content">
+      <h3>MSc Thesis — Computational Oncology</h3>
+      <p class="vita-entry__meta">University of Trento</p>
+      <ul>
+        <li>Integrated methylation and RNA-seq data to construct a reference atlas of neutrophil subtypes.</li>
+        <li>Applied immune deconvolution across multi-cancer cohorts and investigated tumour-associated neutrophil signatures in relation to prognosis and genomic instability.</li>
+        <li>Investigated immune-derived cfDNA signals as potential non-invasive biomarkers.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="vita-entry">
+    <div class="vita-entry__date">Research project</div>
+    <div class="vita-entry__content">
+      <h3>Paediatric ALL subtype classification</h3>
+      <p>Machine-learning research on subtype classification from large-scale genomic data using XGBoost, neural networks, and SHAP-based interpretation.</p>
+    </div>
+  </section>
+</div>
 
-### Biotechnologist — Genotyping
+## Presentations &amp; Scientific Meetings
 
-**MRC Harwell, Mary Lyon Centre**<br>
-June – September 2022
-
-High-throughput TaqMan RT-PCR genotyping for engineered mouse-model workflows.
-
-## Research & Thesis
-
-### MSc Thesis — Computational Oncology
-
-**University of Trento**<br>
-September 2024 – February 2025
-
-- Integrated methylation and RNA-seq data to construct a reference atlas of neutrophil subtypes.
-- Applied immune deconvolution across multi-cancer cohorts and investigated tumour-associated neutrophil signatures in relation to prognosis and genomic instability.
-- Investigated immune-derived cfDNA signals as potential non-invasive biomarkers.
-
-### Paediatric ALL subtype classification
-
-Machine-learning research on subtype classification from large-scale genomic data
-using XGBoost, neural networks, and SHAP-based interpretation.
-
-## Presentations & Scientific Meetings
-
-### Selected scientific presentations
-
-**Paediatric acute lymphoblastic leukaemia subtype classification**<br>
-Machine-learning research presented in the context of BITS 2024 and the 36th
-Pezcoller Symposium.
+<div class="vita-timeline">
+  <section class="vita-entry">
+    <div class="vita-entry__date">BITS 2024 · 36th Pezcoller Symposium</div>
+    <div class="vita-entry__content">
+      <h3>Selected scientific presentations</h3>
+      <p class="vita-entry__meta">Paediatric acute lymphoblastic leukaemia subtype classification</p>
+      <p>Machine-learning research presented in the context of BITS 2024 and the 36th Pezcoller Symposium.</p>
+    </div>
+  </section>
+</div>
 
 ## Education
 
-### MSc Quantitative and Computational Biology
-
-**University of Trento** — July 2025
-
-### BSc Biological Sciences
-
-**University of Perugia** — February 2022
+<div class="vita-timeline">
+  <section class="vita-entry">
+    <div class="vita-entry__date">July 2025</div>
+    <div class="vita-entry__content">
+      <h3>MSc Quantitative and Computational Biology</h3>
+      <p class="vita-entry__meta">University of Trento</p>
+    </div>
+  </section>
+  <section class="vita-entry">
+    <div class="vita-entry__date">February 2022</div>
+    <div class="vita-entry__content">
+      <h3>BSc Biological Sciences</h3>
+      <p class="vita-entry__meta">University of Perugia</p>
+    </div>
+  </section>
+</div>
 
 ## Technical Profile
 
@@ -82,5 +113,3 @@ modelling · machine learning · Nextflow · reproducible workflows
 
 Italian — native<br>
 English — C1+
-
-[Download CV (PDF)]({{ '/assets/files/Thomas_Sirchi_CV.pdf' | relative_url }}){: .btn .btn--primary}

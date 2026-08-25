@@ -1,0 +1,120 @@
+<style>
+  html[data-theme="light"]:not(.theme-ready) body {
+    visibility: hidden;
+  }
+</style>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var lightHref = "{{ '/assets/css/light.css' | relative_url }}";
+    var darkLink = document.querySelector('link[rel="stylesheet"][href*="/assets/css/main.css"]');
+
+    function updateButton(button) {
+      var light = root.dataset.theme === "light";
+      var icon = light ? "☾" : "☀";
+      var label = light ? "Dark" : "Light";
+      button.title = light ? "Switch to dark theme" : "Switch to light theme";
+      button.setAttribute("aria-label", button.title);
+      button.innerHTML = '<span aria-hidden="true">' + icon + '</span> <span>' + label + '</span>';
+    }
+
+    function saveTheme(theme) {
+      try {
+        window.localStorage.setItem("theme", theme);
+      } catch (error) {
+        // Dark remains the safe fallback when storage is unavailable.
+      }
+    }
+
+    function setTheme(theme, persist) {
+      var light = theme === "light";
+      var lightLink = document.querySelector('link[data-theme-stylesheet="light"]');
+      root.dataset.theme = light ? "light" : "dark";
+      root.classList.remove("theme-ready");
+
+      if (persist) {
+        saveTheme(light ? "light" : "dark");
+      }
+
+      if (!light) {
+        if (lightLink) {
+          lightLink.remove();
+        }
+        if (darkLink) {
+          darkLink.disabled = false;
+        }
+        root.classList.add("theme-ready");
+      } else if (lightLink) {
+        if (darkLink) {
+          darkLink.disabled = true;
+        }
+        root.classList.add("theme-ready");
+      } else {
+        lightLink = document.createElement("link");
+        lightLink.rel = "stylesheet";
+        lightLink.href = lightHref;
+        lightLink.dataset.themeStylesheet = "light";
+        lightLink.onload = function () {
+          if (darkLink) {
+            darkLink.disabled = true;
+          }
+          root.classList.add("theme-ready");
+        };
+        lightLink.onerror = function () {
+          root.dataset.theme = "dark";
+          lightLink.remove();
+          if (darkLink) {
+            darkLink.disabled = false;
+          }
+          root.classList.add("theme-ready");
+        };
+        document.head.appendChild(lightLink);
+      }
+
+      var button = document.querySelector(".theme-toggle");
+      if (button) {
+        updateButton(button);
+      }
+    }
+
+    var initialTheme = "dark";
+    try {
+      initialTheme = window.localStorage.getItem("theme") === "light" ? "light" : "dark";
+    } catch (error) {
+      // Dark is the default when storage is unavailable.
+    }
+    root.dataset.theme = initialTheme;
+    if (initialTheme === "light") {
+      setTheme("light", false);
+    } else {
+      root.classList.add("theme-ready");
+    }
+
+    function addThemeToggle() {
+      var nav = document.querySelector("#site-nav");
+      var visibleLinks = nav && nav.querySelector(".visible-links");
+      if (!nav || !visibleLinks || nav.querySelector(".theme-toggle")) {
+        return;
+      }
+
+      var wrapper = document.createElement("span");
+      wrapper.className = "theme-toggle-item";
+      var button = document.createElement("button");
+      button.type = "button";
+      button.className = "theme-toggle";
+      updateButton(button);
+      button.addEventListener("click", function () {
+        setTheme(root.dataset.theme === "light" ? "dark" : "light", true);
+      });
+      wrapper.appendChild(button);
+      nav.insertBefore(wrapper, nav.querySelector(".greedy-nav__toggle") || nav.lastChild);
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", addThemeToggle);
+    } else {
+      addThemeToggle();
+    }
+  }());
+</script>
