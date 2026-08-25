@@ -9,10 +9,6 @@ excerpt: "Cancer genomics, transcriptomics, single-cell analysis, and multi-omic
 <div class="home-hero">
   <p class="home-hero__subtitle">Computational Biologist · Cancer Genomics · Single-Cell &amp; Multi-Omics</p>
   <p class="home-hero__tagline">Decoding tumour heterogeneity, cellular plasticity, and treatment response through computational biology.</p>
-  <nav class="hero-actions" aria-label="Contact links">
-    <a class="btn btn--primary" href="https://github.com/Thokas99" rel="noopener">GitHub</a>
-    <a class="btn" href="mailto:thomasirchi@gmail.com">Email</a>
-  </nav>
 </div>
 
 ## About me
