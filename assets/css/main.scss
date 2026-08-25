@@ -13,6 +13,11 @@
   margin-bottom: 1.5em;
 }
 
+.author__avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .home-actions {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +28,7 @@
 .project-grid {
   display: grid;
   gap: 1.25em;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin: 1.5em 0 2em;
 }
 
@@ -64,6 +69,10 @@
 }
 
 @media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
   .home-actions .btn {
     text-align: center;
     width: 100%;

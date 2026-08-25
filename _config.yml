@@ -14,6 +14,7 @@ repository: "Thokas99/Thokas99.github.io"
 
 author:
   name: "Thomas Sirchi"
+  avatar: "/assets/images/profile.jpg"
   bio: "Computational Biologist | Cancer genomics · Single-cell · Multi-omics"
   links:
     - label: "GitHub"
@@ -22,6 +23,3 @@ author:
 
 plugins:
   - jekyll-include-cache
-
-include:
-  - _pages

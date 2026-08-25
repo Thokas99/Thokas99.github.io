@@ -18,7 +18,7 @@ biological data analysis.
   </article>
   <article class="project-card">
     <h2>veryMADpy</h2>
-    <p>Explicit MAD-based quality control for Python and AnnData.</p>
+    <p>Python and AnnData implementation of explicit MAD-based quality control.</p>
     <a class="project-card__link" href="https://github.com/Thokas99/veryMADpy" rel="noopener">View on GitHub<span class="visually-hidden">: veryMADpy</span> <span aria-hidden="true">↗</span></a>
   </article>
   <article class="project-card">

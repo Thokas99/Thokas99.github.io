@@ -7,29 +7,33 @@ permalink: /research/
 excerpt: "Computational approaches to cancer biology and high-dimensional molecular data."
 ---
 
-My work focuses on computational cancer biology and reproducible analysis of
-high-dimensional molecular data.
+My research interests are centered on the biological processes that shape cancer
+progression, and on computational approaches that make those processes easier to
+study.
 
-## Areas of interest
+## Cancer ecosystems and metastasis
 
-### Cancer genomics and transcriptomics
+I am interested in tumour progression, metastatic dissemination, organ-specific
+metastatic biology, and the interactions between tumour cells and their
+microenvironment.
 
-Computational analysis of cancer genomics and transcriptomics data, with an
-emphasis on workflows that make methods and quality control explicit.
+From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet
+focused on cancer ecosystems and metastatic progression.
 
-### Single-cell analysis
+## Tumour heterogeneity and cell-state plasticity
 
-Single-cell analysis to study tumour heterogeneity and cell-state plasticity.
+I am interested in malignant state transitions, cellular heterogeneity,
+transcriptional plasticity, and treatment-response phenotypes.
 
-### Multi-omics and statistical genomics
+## Single-cell and spatial multi-omics
 
-Multi-omics integration and statistical modelling to investigate cancer
-progression and related molecular phenotypes.
+My approaches include scRNA-seq, integration of high-dimensional molecular
+measurements, spatial molecular data, and multi-modal analyses.
 
-## Reproducible computational work
+## Computational methodology
 
-I build R, Python, and Nextflow workflows that turn complex molecular data into
-clear, interpretable analyses. The accompanying software projects document this
-practical focus.
+Relevant methods include statistical genomics, explicit quality control,
+batch-effect modelling, and reproducible workflows built with R, Python, and
+Nextflow.
 
 [Explore the software projects]({{ '/software/' | relative_url }}){: .btn .btn--primary}
