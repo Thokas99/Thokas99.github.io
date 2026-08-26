@@ -139,8 +139,6 @@ analysis, integrative modelling, and biological interpretation.
   <div class="research-principle__steps">
     <span class="research-principle__step">Biological question</span>
     <span class="research-principle__arrow" aria-hidden="true">→</span>
-    <span class="research-principle__step">Reproducible computation</span>
-    <span class="research-principle__arrow" aria-hidden="true">→</span>
     <span class="research-principle__step">Statistical evidence</span>
     <span class="research-principle__arrow" aria-hidden="true">→</span>
     <span class="research-principle__step">Interpretable biology</span>
