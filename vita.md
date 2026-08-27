@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 classes: wide
 title: "Curriculum Vitae"
-permalink: /vita/
+permalink: /CV/
 excerpt: "Research experience, education, and scientific background."
 ---
 
