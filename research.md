@@ -18,8 +18,7 @@ I am particularly interested in metastatic progression, organ-specific tumour
 biology, and the interactions between malignant cells and the tissues they
 colonize.
 
-From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet
-focused on cancer ecosystems and metastatic progression.
+> <sub><i>From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet, focused on cancer ecosystems and metastatic progression.</i></sub>
 
 ## Tumour heterogeneity and cell-state plasticity
 
