@@ -83,7 +83,7 @@ analysis, integrative modelling, and biological interpretation.
 <nav class="home-actions" aria-label="Site sections">
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore research</a>
   <a class="btn" href="{{ '/software/' | relative_url }}">View software</a>
-  <a class="btn" href="{{ '/vita/' | relative_url }}">Vita</a>
+  <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
 </nav>
 
 ## Software
