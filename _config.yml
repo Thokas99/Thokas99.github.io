@@ -20,9 +20,14 @@ author:
   avatar: "/assets/images/profile.jpg"
   bio: "Computational Biologist"
   links:
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0002-7573-8766"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Thokas99"
+
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:thomasirchi@gmail.com"
