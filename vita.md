@@ -12,8 +12,6 @@ My background spans computational oncology, single-cell analysis,
 transcriptomics, statistical modelling, machine learning, and reproducible
 computational workflows.
 
-> **Incoming doctoral researcher at ULB / Institut Jules Bordet, beginning October 2026.**
-
 [Download CV (PDF)]({{ '/assets/files/Thomas_Sirchi_CV.pdf' | relative_url }}){: .btn .btn--primary}
 
 ## Professional Experience
@@ -79,6 +77,8 @@ computational workflows.
 </div>
 
 ## Education
+
+> <sub><i>From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet, focused on cancer ecosystems and metastatic progression.</i></sub>
 
 <div class="vita-timeline">
   <section class="vita-entry">
