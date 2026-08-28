@@ -78,8 +78,6 @@ computational workflows.
 
 ## Education
 
-> <sub><i>From October 2026, I will begin doctoral research at ULB / Institut Jules Bordet, focused on cancer ecosystems and metastatic progression.</i></sub>
-
 <div class="vita-timeline">
   <section class="vita-entry">
     <div class="vita-entry__date">July 2025</div>
